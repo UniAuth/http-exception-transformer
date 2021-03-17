@@ -18,6 +18,12 @@ export const exceptionList: Array<SourceRow> = [
     reference: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401',
   },
   {
+    code: 403,
+    name: 'Forbidden',
+    message: 'The client does not have access to this content',
+    reference: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403',
+  },
+  {
     code: 404,
     name: 'NotFoundException',
     message: 'The server can not find the requested resource',
