@@ -18,6 +18,12 @@ export const exceptionList: Array<SourceRow> = [
     reference: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401',
   },
   {
+    code:403,
+    name:"Unauthorised",
+    message:"Client must authenticate itself to get authenticate itself",
+    reference:"https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403",
+  },
+  {
     code: 404,
     name: 'NotFoundException',
     message: 'The server can not find the requested resource',
@@ -29,4 +35,7 @@ export const exceptionList: Array<SourceRow> = [
     message: 'The server has encountered a situation it does not know how to handle.',
     reference: 'https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500',
   },
+
+
+
 ]
