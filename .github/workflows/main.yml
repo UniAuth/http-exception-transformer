@@ -1,0 +1,32 @@
+name: Continuous Integration
+
+# This action works with pull requests and pushes
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        # Make sure the actual branch is checked out when running on pull requests
+        ref: ${{ github.head_ref }}
+    
+    - name: npm install
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    
+    - name: npm test and build
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm test
+    - run: npm build
