@@ -22,7 +22,7 @@
     "nodemon": "^2.0.7",
     "typescript": "^4.2.3",
     "@types/body-parser": "^1.19.0",
-    "@types/chai": "^4.2.15",
+    "@types/chai": "^4.2.16",
     "@types/mocha": "^8.2.2",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
