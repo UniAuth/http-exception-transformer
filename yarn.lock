@@ -2077,9 +2077,9 @@ node-releases@^1.1.70:
   version "1.1.71"
   resolved "https://registry.npmjs.org/node-releases/-/node-releases-1.1.71.tgz"
 
-nodemon@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.npmjs.org/nodemon/-/nodemon-2.0.7.tgz"
+nodemon@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-2.0.8.tgz#95719984d4ae57c2b5ce2a1e1bf1ca14de36f500"
   dependencies:
     chokidar "^3.2.2"
     debug "^3.2.6"
