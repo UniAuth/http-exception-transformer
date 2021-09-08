@@ -31,7 +31,6 @@ class HttpException extends Error {
       error: true,
       message: this.message,
       payload: this.payload,
-      reference: this.reference,
     }
   }
 }
